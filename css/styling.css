@@ -1,0 +1,48 @@
+.navbar-nav > li {
+    padding-left:30px;
+    padding-right:30px;
+}
+
+body {
+    background-color: rgb(157, 235, 192);
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.test-1 {
+    border: 1px solid red;
+}
+
+.test-2 {
+    border: 1px solid blue;
+}
+
+.top {
+    padding-top: 50px;
+}
+
+#homeCarousel {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.borderFoot {
+    border-bottom: 2px solid black;
+}
+
+.site-footer {
+    margin-top: 25px;
+}
+
+.btn-social-icon {
+    padding-left: 5px;
+}
+
+.footRight {
+    border-left: 2px solid black;
+}
+
+.signUpBtn {
+    border: 1px solid black;
+}
