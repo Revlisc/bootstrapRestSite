@@ -79,13 +79,13 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
         
         <form>
             <div class="row form-group">
-                <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                <label for="guests" class="col-sm-6 col-form-label">Number of Guests:</label>
                 <div class="col col-form-label">
-                    <select name="numCampers" id="numCampers" class="form-control">
+                    <select name="guests" id="guests" class="form-control">
                         <option>Select...</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -93,31 +93,33 @@
                         <option value="4">4</option>
                         <option value="5">5</option>
                         <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
                     </select>
                 </div>
             </div>
             <div class="row form-group">
-                <label for="date" class="col">Date</label>
+                <label for="date" class="col">Date:</label>
                 <div class="col-sm-6">
                     <input class="form-control" type="date" id="date" name="date" placeholder="mm/dd/yyyy"/> 
                 </div> 
             </div>
             <div class="row form-group">
-                <label class="col-form-label col-sm-6">Campsite Type</label>
+                <label for="resTime" class="col">Time for your Reservation:</label>
+                <div class="col-sm-6">
+                    <input id="resTime" class="form-control" type="time" name="time" max="21:00" min="15:00"/>
+                </div>
+            </div>
+            <div class="row form-group">
+                <label class="col-form-label col-sm-6">Patio Seating?</label>
                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn btn-success active">
-                        <input type="radio" name="options" id="siteTent" value="tent" autocomplete="off" checked> Tent
-                    </label>
-                    <label class="btn btn-primary">
-                        <input type="radio" name="options" id="siteRV" value="RV" autocomplete="off"> RV
-                    </label>
-
+                    <input type="checkbox" id="patioSeat" class="btn form-control btn-small" name="patio" value="yes"/>
+                    <label for="patioSeat"></label>
                 </div>
             </div>
             <div class="row form-group">
                 <div class="col">
-                    <button type="submit" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Search</button>
+                    <button type="submit" class="btn btn-primary">Place Reservation</button>
                 </div>
             </div>
         </form>
