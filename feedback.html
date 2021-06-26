@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- build:css css/main.css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="css/styling.css" />
-    <!-- endbuild -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    
+   <!-- build:css css/main.css -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+   <link rel="stylesheet" href="css/styling.css" />
+   <!-- endbuild -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     
     <title>Restaurant</title>
 </head>
@@ -29,8 +29,8 @@
             <div class="collapse navbar-collapse" id="restNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="reservations.html"> Reservations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html"> Menu</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"> Reservations</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"> Store</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
@@ -81,110 +81,55 @@
 
     <div class="container">
         <div class="row">
-            <div class="col top text-center">
-                <h2>Explore Our Menu</h2>
-                <hr/>
-            </div>
-        </div>
-        <div class="row top">
-            <div class="col top text-center">
-                <h3>Appetizers</h3>
-                <hr/>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
             <div class="col">
-                <h5>Truffle Fries &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7</h5>
-                <p>Freshly-fried sweet potatoes served with a truffle-based sauce</p>
-            </div>
-            <div class="col">
-                <h5>Truffle Fries &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7</h5>
-                <p>Freshly-fried sweet potatoes served with a truffle-based sauce</p>
-            </div>
-            <div class="col">C</div>
-            <div class="col">D</div>
-            <div class="col">E</div>
-            <div class="col">F</div>
-            <div class="col">G</div>
-            <div class="col">H</div>
-            <div class="col">I</div>
-        </div>
-
-        <div class="row top">
-            <div class="col top text-center">
-                <h3>Main Dishes</h3>
-                <hr/>
+                <h4>Enjoyed your time? We'd love to hear about it!</h4>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <div class="col">
-                <h5>Salmon with Feta Aioli &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24</h5>
-                <p>Oven-roasted salmon served with a feta aioli, steamed rice, and vegetablers</p>
-            </div>
-            <div class="col">B</div>
-            <div class="col">C</div>
-            <div class="col">D</div>
-            <div class="col">E</div>
-            <div class="col">F</div>
-            <div class="col">G</div>
-            <div class="col">H</div>
-            <div class="col">I</div>
-        </div>
-
-        <div class="row top">
-            <div class="col top text-center">
-                <h3>Plant Based</h3>
-                <hr/>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <div class="col">A</div>
-            <div class="col">B</div>
-            <div class="col">C</div>
-            <div class="col">D</div>
-            <div class="col">E</div>
-            <div class="col">F</div>
-            <div class="col">G</div>
-            <div class="col">H</div>
-            <div class="col">I</div>
-        </div>
-
-        <div class="row top">
-            <div class="col top text-center">
-                <h3>Cocktails and Drinks</h3>
-                <hr/>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <div class="col">A</div>
-            <div class="col">B</div>
-            <div class="col">C</div>
-            <div class="col">D</div>
-            <div class="col">E</div>
-            <div class="col">F</div>
-            <div class="col">G</div>
-            <div class="col">H</div>
-            <div class="col">I</div>
-        </div>
-        
-        <div class="row top">
-            <div class="col top text-center">
-                <h3>Desserts</h3>
-                <hr/>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <div class="col">A</div>
-            <div class="col">B</div>
-            <div class="col">C</div>
-            <div class="col">D</div>
-            <div class="col">E</div>
-            <div class="col">F</div>
-            <div class="col">G</div>
-            <div class="col">H</div>
-            <div class="col">I</div>
+        <div class="row justify-content-center">
+            <form>
+                
+                <div class="row form-group">
+                    <label for="firstname" class="col">Your First Name?</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" id="firstname" name="firstname" placeholder="Your Name Here"/> 
+                    </div> 
+                </div>
+                <div class="row form-group">
+                    <label for="server" class="col">Who was your server?</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" id="server" name="server" placeholder="..."/> 
+                    </div> 
+                </div>
+                <div class="row form-group">
+                    <label for="selection" class="col">What did you order tonight?</label>
+                    <div class="col-sm-8">
+                        <input class="form-control" type="text" id="selection" name="selection" placeholder="..."/> 
+                    </div> 
+                </div>
+                <div class="row form-group">
+                    <label for="review" class="col">Your review of tonight?</label>
+                    <div class="col-sm-8">
+                        <textarea class="textarea" cols="40" id="review" name="review"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="formControlRange">How likely are you to return?</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="5"> 
+                </div>
+                <div class="row form-group">
+                    <label for="formControlRange">How would you rate your food?</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="5"> 
+                </div>
+                
+                <div class="row form-group">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Submit Review</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
+
     <footer class="site-footer">
         <div class="container">
             <div class="row borderFoot">
@@ -224,9 +169,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-</html>
 
 </body>
 </html>
