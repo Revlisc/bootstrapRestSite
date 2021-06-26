@@ -80,10 +80,15 @@
     </div>
 
     <div class="container">
-        
+        <div class="row top">
+            <div class="col-12">
+                <h2>Place your Reservation</h2>
+                <hr>
+            </div>
+        </div>
         <form>
             <div class="row form-group">
-                <label for="guests" class="col-sm-6 col-form-label">Number of Guests:</label>
+                <label for="guests" class="col-sm-4 col-form-label">Number of Guests:</label>
                 <div class="col col-form-label">
                     <select name="guests" id="guests" class="form-control">
                         <option>Select...</option>
@@ -100,18 +105,18 @@
             </div>
             <div class="row form-group">
                 <label for="date" class="col">Date:</label>
-                <div class="col-sm-6">
+                <div class="col-sm-8">
                     <input class="form-control" type="date" id="date" name="date" placeholder="mm/dd/yyyy"/> 
                 </div> 
             </div>
             <div class="row form-group">
                 <label for="resTime" class="col">Time for your Reservation:</label>
-                <div class="col-sm-6">
+                <div class="col-sm-8">
                     <input id="resTime" class="form-control" type="time" name="time" max="21:00" min="15:00"/>
                 </div>
             </div>
             <div class="row form-group">
-                <label class="col-form-label col-sm-6">Patio Seating?</label>
+                <label class="col-form-label col-sm-4">Patio Seating?</label>
                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
                     <input type="checkbox" id="patioSeat" class="btn form-control btn-small" name="patio" value="yes"/>
                     <label for="patioSeat"></label>
