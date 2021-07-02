@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +13,9 @@
    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
    <link rel="stylesheet" href="css/styling.css" />
    <!-- endbuild -->
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+   </style>
     
     <title>Restaurant</title>
 </head>
@@ -33,7 +37,7 @@
                     <li class="nav-item"><a class="nav-link" href="reservations.html"> Reservations</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -89,7 +93,7 @@
         <div class="row">
             <div class="col-lg-3 col-xs-12 justify-content-start mr-3">
                 <div class="card-header d-none d-lg-block text-center">
-                    <p>Get in Touch</p>
+                    <h3>Get in Touch</h3>
                 </div>
                 <div class="card-body">
                     <ul class="list-unstyled text-center">
@@ -147,8 +151,8 @@
             </div>
 
             <div class="col-lg-3 justify-content-end d-none d-lg-block">
-                <div class="card-header">
-                    <p>See What's Happening at Dale's!</p>
+                <div class="card-header text-center">
+                    <h3>See What's Happening at Dale's!</h3>
                 </div>
                 <div class="card-body">
                     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A taste of Lucky Cat !! <a href="https://twitter.com/GordonRamsayGRR?ref_src=twsrc%5Etfw">@GordonRamsayGRR</a> <a href="https://t.co/GIcksZcoJA">pic.twitter.com/GIcksZcoJA</a></p>&mdash; Gordon Ramsay (@GordonRamsay) <a href="https://twitter.com/GordonRamsay/status/1404350005817839622?ref_src=twsrc%5Etfw">June 14, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -197,6 +201,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

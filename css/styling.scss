@@ -1,3 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+$textcolor: #003349;
+$carouselcolor:  rgba(0, 0, 0, 0.5);
+$head-font: "Dancing Script", cursive;
+$body-font: 'Lato', sans-serif;
+
+
+body {
+    h2, h3, h4, h5 {
+        font-family: $head-font;
+        color: $textcolor
+    }
+
+    p, .form-group {
+        color: $textcolor;
+        font-family: $body-font;
+    }
+    .card-header {
+        border-bottom: 1px solid black;
+        background-color: white;
+        h3 {
+            font-family: $body-font;
+            font-size: 24px;
+        }
+    }
+    .navbar {
+        background-image: linear-gradient(to right, white, #08a5e9);
+    }
+    
+}
+
 .navbar-nav > li {
     padding-left:30px;
     padding-right:30px;
@@ -13,14 +46,6 @@ h2 {
 
 .navbar-nav {
     font-weight: bold;
-}
-
-.test-1 {
-    border: 1px solid red;
-}
-
-.test-2 {
-    border: 1px solid blue;
 }
 
 .top {
