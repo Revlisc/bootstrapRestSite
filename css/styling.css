@@ -17,6 +17,9 @@ body .card-header {
 body .navbar {
   background-image: linear-gradient(to right, white, #08a5e9); }
 
+body .newitem {
+  color: #2c9bdb; }
+
 .navbar-nav > li {
   padding-left: 30px;
   padding-right: 30px; }
